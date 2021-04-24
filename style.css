@@ -1,0 +1,47 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #d2d8da;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.h1 {
+	display: flex;
+	justify-content: center;
+	margin-top: 100px;
+	margin-left: 190px;
+}
+
+.posts {
+	display: inline-block;
+	width: 1000px;
+	margin-left: 200px;
+}
+
+.post {
+	display: inline-block;
+	width: 135px;
+	height: 180px;
+	background-color: aliceblue;
+	margin-top: 30px;
+	margin-left: 70px;
+}
+
+h4 {
+	margin-top: 25px;
+	margin-left: 10px;
+}
+
+img {
+	margin-top: 7px;
+	margin-left: 2.5px;
+}
